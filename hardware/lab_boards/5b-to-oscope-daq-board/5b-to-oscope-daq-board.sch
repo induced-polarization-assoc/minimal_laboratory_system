@@ -713,10 +713,10 @@ Wire Wire Line
 	5600 4400 5600 4450
 Connection ~ 5150 4400
 $Comp
-L Connector:Conn_Coaxial J?
+L Connector:Conn_Coaxial J7
 U 1 1 5F6BCFF9
 P 2700 4650
-F 0 "J?" H 2628 4888 50  0000 C CNN
+F 0 "J7" H 2628 4888 50  0000 C CNN
 F 1 "OSCOPE5" V 2850 4550 50  0000 C CNN
 F 2 "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal" H 2700 4650 50  0001 C CNN
 F 3 " ~" H 2700 4650 50  0001 C CNN

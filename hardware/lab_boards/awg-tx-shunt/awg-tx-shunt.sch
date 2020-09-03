@@ -1,0 +1,435 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Transformer_AUDIO T?
+U 1 1 5F5143F4
+P 5600 3250
+F 0 "T?" H 5600 3717 50  0000 C CNN
+F 1 "Transformer_AUDIO" H 5600 3626 50  0000 C CNN
+F 2 "" H 5600 3250 50  0001 C CNN
+F 3 "~" H 5600 3250 50  0001 C CNN
+	1    5600 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 5F5154FD
+P 7550 1900
+F 0 "J?" H 7650 1875 50  0000 L CNN
+F 1 "Conn_Coaxial" H 7650 1784 50  0000 L CNN
+F 2 "" H 7550 1900 50  0001 C CNN
+F 3 " ~" H 7550 1900 50  0001 C CNN
+	1    7550 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Transformer_AUDIO T?
+U 1 1 5F5171F7
+P 5600 2100
+F 0 "T?" H 5600 2567 50  0000 C CNN
+F 1 "Transformer_AUDIO" H 5600 2476 50  0000 C CNN
+F 2 "" H 5600 2100 50  0001 C CNN
+F 3 "~" H 5600 2100 50  0001 C CNN
+	1    5600 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Shunt_US R?
+U 1 1 5F517FF2
+P 5650 5550
+F 0 "R?" V 5517 5550 50  0000 C CNN
+F 1 "R_Shunt_US" V 5426 5550 50  0000 C CNN
+F 2 "" V 5580 5550 50  0001 C CNN
+F 3 "~" H 5650 5550 50  0001 C CNN
+	1    5650 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J?
+U 1 1 5F5192E8
+P 3300 3150
+F 0 "J?" H 3218 2825 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 3218 2916 50  0000 C CNN
+F 2 "" H 3300 3150 50  0001 C CNN
+F 3 "~" H 3300 3150 50  0001 C CNN
+	1    3300 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 5F51AF3D
+P 7550 3050
+F 0 "J?" H 7650 3025 50  0000 L CNN
+F 1 "Conn_Coaxial" H 7650 2934 50  0000 L CNN
+F 2 "" H 7550 3050 50  0001 C CNN
+F 3 " ~" H 7550 3050 50  0001 C CNN
+	1    7550 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 5F51E4A7
+P 7550 4650
+F 0 "J?" H 7650 4625 50  0000 L CNN
+F 1 "Conn_Coaxial" H 7650 4534 50  0000 L CNN
+F 2 "" H 7550 4650 50  0001 C CNN
+F 3 " ~" H 7550 4650 50  0001 C CNN
+	1    7550 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 5F51E891
+P 7550 5550
+F 0 "J?" H 7650 5525 50  0000 L CNN
+F 1 "Conn_Coaxial" H 7650 5434 50  0000 L CNN
+F 2 "" H 7550 5550 50  0001 C CNN
+F 3 " ~" H 7550 5550 50  0001 C CNN
+	1    7550 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 5550 5850 5550
+Wire Wire Line
+	4350 5550 4350 3050
+Wire Wire Line
+	4350 3050 3900 3050
+Wire Wire Line
+	3500 3150 3600 3150
+Wire Wire Line
+	4100 3150 4100 3450
+Wire Wire Line
+	4100 5750 7550 5750
+Wire Wire Line
+	5450 5550 4350 5550
+Wire Wire Line
+	5550 5400 5550 4650
+Wire Wire Line
+	5550 4650 7350 4650
+Wire Wire Line
+	5750 5400 5750 4850
+Wire Wire Line
+	5750 4850 7550 4850
+Wire Wire Line
+	4350 3050 5200 3050
+Connection ~ 4350 3050
+Wire Wire Line
+	5200 3450 4100 3450
+Connection ~ 4100 3450
+Wire Wire Line
+	4100 3450 4100 5750
+Wire Wire Line
+	3500 3250 3750 3250
+Wire Wire Line
+	3750 3250 3750 4700
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5F52A05E
+P 3750 4700
+F 0 "#PWR?" H 3750 4500 50  0001 C CNN
+F 1 "GNDPWR" H 3754 4546 50  0000 C CNN
+F 2 "" H 3750 4650 50  0001 C CNN
+F 3 "" H 3750 4650 50  0001 C CNN
+	1    3750 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5F52A4F6
+P 4900 3800
+F 0 "#PWR?" H 4900 3600 50  0001 C CNN
+F 1 "GNDPWR" H 4904 3646 50  0000 C CNN
+F 2 "" H 4900 3750 50  0001 C CNN
+F 3 "" H 4900 3750 50  0001 C CNN
+	1    4900 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3050 4350 1900
+Wire Wire Line
+	4350 1900 5200 1900
+Wire Wire Line
+	5200 2300 4100 2300
+Wire Wire Line
+	4100 2300 4100 3150
+Connection ~ 4100 3150
+$Comp
+L Device:Transformer_AUDIO T?
+U 1 1 5F5338F2
+P 5600 1000
+F 0 "T?" H 5600 1467 50  0000 C CNN
+F 1 "Transformer_AUDIO" H 5600 1376 50  0000 C CNN
+F 2 "" H 5600 1000 50  0001 C CNN
+F 3 "~" H 5600 1000 50  0001 C CNN
+	1    5600 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 5F5344E2
+P 7550 800
+F 0 "J?" H 7650 775 50  0000 L CNN
+F 1 "Conn_Coaxial" H 7650 684 50  0000 L CNN
+F 2 "" H 7550 800 50  0001 C CNN
+F 3 " ~" H 7550 800 50  0001 C CNN
+	1    7550 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 800  6100 800 
+$Comp
+L Device:L L?
+U 1 1 5F536EDD
+P 6950 600
+F 0 "L?" V 7140 600 50  0000 C CNN
+F 1 "L" V 7049 600 50  0000 C CNN
+F 2 "" H 6950 600 50  0001 C CNN
+F 3 "~" H 6950 600 50  0001 C CNN
+	1    6950 600 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 800  7350 800 
+$Comp
+L Device:R_US R?
+U 1 1 5F537DC0
+P 6350 800
+F 0 "R?" V 6145 800 50  0000 C CNN
+F 1 "R_US" V 6236 800 50  0000 C CNN
+F 2 "" V 6390 790 50  0001 C CNN
+F 3 "~" H 6350 800 50  0001 C CNN
+	1    6350 800 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6500 800  6800 800 
+Wire Wire Line
+	6000 1200 6100 1200
+Wire Wire Line
+	7550 1200 7550 1000
+$Comp
+L Device:D D?
+U 1 1 5F53D070
+P 3750 3050
+F 0 "D?" H 3750 2833 50  0000 C CNN
+F 1 "D" H 3750 2924 50  0000 C CNN
+F 2 "" H 3750 3050 50  0001 C CNN
+F 3 "~" H 3750 3050 50  0001 C CNN
+	1    3750 3050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3600 3050 3500 3050
+$Comp
+L Device:D D?
+U 1 1 5F53D5F2
+P 3750 3150
+F 0 "D?" H 3750 3367 50  0000 C CNN
+F 1 "D" H 3750 3276 50  0000 C CNN
+F 2 "" H 3750 3150 50  0001 C CNN
+F 3 "~" H 3750 3150 50  0001 C CNN
+	1    3750 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3150 4100 3150
+Wire Wire Line
+	6000 1900 6050 1900
+Wire Wire Line
+	7550 2100 7550 2300
+Wire Wire Line
+	7350 3050 6700 3050
+Wire Wire Line
+	6000 3450 6100 3450
+Wire Wire Line
+	7550 3450 7550 3250
+Wire Wire Line
+	6800 600  6800 800 
+Wire Wire Line
+	7100 600  7100 800 
+Wire Wire Line
+	7100 800  7100 1000
+Wire Wire Line
+	6800 1000 6800 800 
+Connection ~ 7100 800 
+Connection ~ 6800 800 
+$Comp
+L Device:R_US R?
+U 1 1 5F546557
+P 6950 1000
+F 0 "R?" V 6745 1000 50  0000 C CNN
+F 1 "R_US" V 6836 1000 50  0000 C CNN
+F 2 "" V 6990 990 50  0001 C CNN
+F 3 "~" H 6950 1000 50  0001 C CNN
+	1    6950 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5F5482F9
+P 6350 1900
+F 0 "R?" V 6145 1900 50  0000 C CNN
+F 1 "R_US" V 6236 1900 50  0000 C CNN
+F 2 "" V 6390 1890 50  0001 C CNN
+F 3 "~" H 6350 1900 50  0001 C CNN
+	1    6350 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6500 1900 6800 1900
+$Comp
+L Device:R_US R?
+U 1 1 5F5489D9
+P 6050 2100
+F 0 "R?" H 5982 2054 50  0000 R CNN
+F 1 "R_US" H 5982 2145 50  0000 R CNN
+F 2 "" V 6090 2090 50  0001 C CNN
+F 3 "~" H 6050 2100 50  0001 C CNN
+	1    6050 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5F548EA9
+P 6950 2150
+F 0 "R?" V 6745 2150 50  0000 C CNN
+F 1 "R_US" V 6836 2150 50  0000 C CNN
+F 2 "" V 6990 2140 50  0001 C CNN
+F 3 "~" H 6950 2150 50  0001 C CNN
+	1    6950 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F54972A
+P 6950 1650
+F 0 "C?" V 6698 1650 50  0000 C CNN
+F 1 "C" V 6789 1650 50  0000 C CNN
+F 2 "" H 6988 1500 50  0001 C CNN
+F 3 "~" H 6950 1650 50  0001 C CNN
+	1    6950 1650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6800 1650 6800 1900
+Connection ~ 6800 1900
+Wire Wire Line
+	6800 1900 6800 2150
+Wire Wire Line
+	7100 2150 7100 1900
+Connection ~ 7100 1900
+Wire Wire Line
+	7100 1900 7350 1900
+Wire Wire Line
+	7100 1900 7100 1650
+$Comp
+L Device:R_US R?
+U 1 1 5F54EA0A
+P 6550 3050
+F 0 "R?" V 6345 3050 50  0000 C CNN
+F 1 "R_US" V 6436 3050 50  0000 C CNN
+F 2 "" V 6590 3040 50  0001 C CNN
+F 3 "~" H 6550 3050 50  0001 C CNN
+	1    6550 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6400 3050 6100 3050
+$Comp
+L Device:R_US R?
+U 1 1 5F54EE0C
+P 6100 3250
+F 0 "R?" H 6032 3204 50  0000 R CNN
+F 1 "R_US" H 6032 3295 50  0000 R CNN
+F 2 "" V 6140 3240 50  0001 C CNN
+F 3 "~" H 6100 3250 50  0001 C CNN
+	1    6100 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5200 1200 4100 1200
+Wire Wire Line
+	4100 1200 4100 2300
+Connection ~ 4100 2300
+Wire Wire Line
+	4350 1900 4350 800 
+Wire Wire Line
+	4350 800  5200 800 
+Connection ~ 4350 1900
+Wire Wire Line
+	6000 2300 6050 2300
+Wire Wire Line
+	6050 2250 6050 2300
+Connection ~ 6050 2300
+Wire Wire Line
+	6050 2300 7550 2300
+Wire Wire Line
+	6050 1950 6050 1900
+Connection ~ 6050 1900
+Wire Wire Line
+	6050 1900 6200 1900
+$Comp
+L Device:R_US R?
+U 1 1 5F55DDE2
+P 6100 1000
+F 0 "R?" H 6032 954 50  0000 R CNN
+F 1 "R_US" H 6032 1045 50  0000 R CNN
+F 2 "" V 6140 990 50  0001 C CNN
+F 3 "~" H 6100 1000 50  0001 C CNN
+	1    6100 1000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6100 1150 6100 1200
+Connection ~ 6100 1200
+Wire Wire Line
+	6100 850  6100 800 
+Connection ~ 6100 800 
+Wire Wire Line
+	6100 800  6200 800 
+Wire Wire Line
+	6100 3100 6100 3050
+Connection ~ 6100 3050
+Wire Wire Line
+	6100 3050 6000 3050
+Wire Wire Line
+	6100 3400 6100 3450
+Connection ~ 6100 3450
+Wire Wire Line
+	6100 3450 7550 3450
+Wire Wire Line
+	6100 1200 7550 1200
+Wire Wire Line
+	5600 1400 5600 1550
+Wire Wire Line
+	5600 1550 4900 1550
+Wire Wire Line
+	4900 1550 4900 2650
+Wire Wire Line
+	5600 3650 5600 3700
+Wire Wire Line
+	5600 3700 4900 3700
+Connection ~ 4900 3700
+Wire Wire Line
+	4900 3700 4900 3800
+Wire Wire Line
+	5600 2500 5600 2650
+Wire Wire Line
+	5600 2650 4900 2650
+Connection ~ 4900 2650
+Wire Wire Line
+	4900 2650 4900 3700
+$EndSCHEMATC
