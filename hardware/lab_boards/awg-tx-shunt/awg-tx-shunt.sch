@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:Transformer_AUDIO T?
-U 1 1 5F5143F4
-P 5600 3250
-F 0 "T?" H 5600 3717 50  0000 C CNN
-F 1 "Transformer_AUDIO" H 5600 3626 50  0000 C CNN
-F 2 "" H 5600 3250 50  0001 C CNN
-F 3 "~" H 5600 3250 50  0001 C CNN
-	1    5600 3250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_Coaxial J?
 U 1 1 5F5154FD
 P 7550 1900
@@ -33,17 +22,6 @@ F 1 "Conn_Coaxial" H 7650 1784 50  0000 L CNN
 F 2 "" H 7550 1900 50  0001 C CNN
 F 3 " ~" H 7550 1900 50  0001 C CNN
 	1    7550 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Transformer_AUDIO T?
-U 1 1 5F5171F7
-P 5600 2100
-F 0 "T?" H 5600 2567 50  0000 C CNN
-F 1 "Transformer_AUDIO" H 5600 2476 50  0000 C CNN
-F 2 "" H 5600 2100 50  0001 C CNN
-F 3 "~" H 5600 2100 50  0001 C CNN
-	1    5600 2100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -146,17 +124,6 @@ F 3 "" H 3750 4650 50  0001 C CNN
 	1    3750 4700
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GNDPWR #PWR?
-U 1 1 5F52A4F6
-P 4900 3800
-F 0 "#PWR?" H 4900 3600 50  0001 C CNN
-F 1 "GNDPWR" H 4904 3646 50  0000 C CNN
-F 2 "" H 4900 3750 50  0001 C CNN
-F 3 "" H 4900 3750 50  0001 C CNN
-	1    4900 3800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4350 3050 4350 1900
 Wire Wire Line
@@ -166,17 +133,6 @@ Wire Wire Line
 Wire Wire Line
 	4100 2300 4100 3150
 Connection ~ 4100 3150
-$Comp
-L Device:Transformer_AUDIO T?
-U 1 1 5F5338F2
-P 5600 1000
-F 0 "T?" H 5600 1467 50  0000 C CNN
-F 1 "Transformer_AUDIO" H 5600 1376 50  0000 C CNN
-F 2 "" H 5600 1000 50  0001 C CNN
-F 3 "~" H 5600 1000 50  0001 C CNN
-	1    5600 1000
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector:Conn_Coaxial J?
 U 1 1 5F5344E2
@@ -188,8 +144,6 @@ F 3 " ~" H 7550 800 50  0001 C CNN
 	1    7550 800 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6000 800  6100 800 
 $Comp
 L Device:L L?
 U 1 1 5F536EDD
@@ -216,8 +170,6 @@ F 3 "~" H 6350 800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6500 800  6800 800 
-Wire Wire Line
-	6000 1200 6100 1200
 Wire Wire Line
 	7550 1200 7550 1000
 $Comp
@@ -247,13 +199,9 @@ $EndComp
 Wire Wire Line
 	3900 3150 4100 3150
 Wire Wire Line
-	6000 1900 6050 1900
-Wire Wire Line
 	7550 2100 7550 2300
 Wire Wire Line
 	7350 3050 6700 3050
-Wire Wire Line
-	6000 3450 6100 3450
 Wire Wire Line
 	7550 3450 7550 3250
 Wire Wire Line
@@ -370,8 +318,6 @@ Wire Wire Line
 	4350 800  5200 800 
 Connection ~ 4350 1900
 Wire Wire Line
-	6000 2300 6050 2300
-Wire Wire Line
 	6050 2250 6050 2300
 Connection ~ 6050 2300
 Wire Wire Line
@@ -404,32 +350,55 @@ Wire Wire Line
 	6100 3100 6100 3050
 Connection ~ 6100 3050
 Wire Wire Line
-	6100 3050 6000 3050
-Wire Wire Line
 	6100 3400 6100 3450
 Connection ~ 6100 3450
 Wire Wire Line
 	6100 3450 7550 3450
 Wire Wire Line
 	6100 1200 7550 1200
+$Comp
+L T6003NL:T6003NL L?
+U 1 1 5F5801FC
+P 5500 3250
+F 0 "L?" H 5500 3250 50  0001 L BNN
+F 1 "T6003NL" H 5500 3250 50  0001 L BNN
+F 2 "transformers:T6003NL" H 5500 3572 50  0000 C CNN
+F 3 "" H 5500 3250 50  0001 C CNN
+	1    5500 3250
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	5600 1400 5600 1550
+	5800 3050 6100 3050
 Wire Wire Line
-	5600 1550 4900 1550
+	5800 3450 6100 3450
+$Comp
+L T6003NL:T6003NL L?
+U 1 1 5F58D17C
+P 5500 2100
+F 0 "L?" H 5500 2100 50  0001 L BNN
+F 1 "T6003NL" H 5500 2100 50  0001 L BNN
+F 2 "transformers:T6003NL" H 5500 2422 50  0000 C CNN
+F 3 "" H 5500 2100 50  0001 C CNN
+	1    5500 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L T6003NL:T6003NL L?
+U 1 1 5F58F097
+P 5500 1000
+F 0 "L?" H 5500 1000 50  0001 L BNN
+F 1 "T6003NL" H 5500 1000 50  0001 L BNN
+F 2 "transformers:T6003NL" H 5500 1322 50  0000 C CNN
+F 3 "" H 5500 1000 50  0001 C CNN
+	1    5500 1000
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	4900 1550 4900 2650
+	5800 800  6100 800 
 Wire Wire Line
-	5600 3650 5600 3700
+	5800 1200 6100 1200
 Wire Wire Line
-	5600 3700 4900 3700
-Connection ~ 4900 3700
+	5800 1900 6050 1900
 Wire Wire Line
-	4900 3700 4900 3800
-Wire Wire Line
-	5600 2500 5600 2650
-Wire Wire Line
-	5600 2650 4900 2650
-Connection ~ 4900 2650
-Wire Wire Line
-	4900 2650 4900 3700
+	5800 2300 6050 2300
 $EndSCHEMATC
