@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name phoenix-6pos-1984659)(type Legacy)(uri ${KICAD_USER_SYMBOL_DIR}/screw-terminals/phoenix-6pos-1984659/phoenix-6pos-1984659.lib)(options "")(descr ""))
+)
