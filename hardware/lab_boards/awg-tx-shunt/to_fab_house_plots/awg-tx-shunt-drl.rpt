@@ -1,0 +1,27 @@
+Drill report for C:\Users\josep\Documents\ipa_repositories\hardware_designs\minimal_laboratory_system\hardware\lab_boards\awg-tx-shunt\awg-tx-shunt.kicad_pcb
+Created on 9/14/2020 11:12:50 AM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'awg-tx-shunt.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.40mm  0.016"  (12 holes)
+    T2  0.50mm  0.020"  (32 holes)
+    T3  0.89mm  0.035"  (4 holes)
+    T4  1.19mm  0.047"  (6 holes)
+    T5  2.01mm  0.079"  (4 holes)
+    T6  3.20mm  0.126"  (4 holes)
+
+    Total plated holes count 62
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
