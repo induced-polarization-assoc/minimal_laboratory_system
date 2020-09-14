@@ -259,4 +259,48 @@ Text Label 5200 3850 1    50   ~ 0
 SHUNT_P
 Text Label 5500 4250 1    50   ~ 0
 SHUNT_N
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5F60CBBC
+P 7850 2500
+F 0 "H3" H 7950 2546 50  0000 L CNN
+F 1 "MountingHole" H 7950 2455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7850 2500 50  0001 C CNN
+F 3 "~" H 7850 2500 50  0001 C CNN
+	1    7850 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5F60D012
+P 7900 4500
+F 0 "H4" H 8000 4546 50  0000 L CNN
+F 1 "MountingHole" H 8000 4455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7900 4500 50  0001 C CNN
+F 3 "~" H 7900 4500 50  0001 C CNN
+	1    7900 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5F60D416
+P 2950 2500
+F 0 "H1" H 3050 2546 50  0000 L CNN
+F 1 "MountingHole" H 3050 2455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2950 2500 50  0001 C CNN
+F 3 "~" H 2950 2500 50  0001 C CNN
+	1    2950 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5F60E242
+P 2950 4500
+F 0 "H2" H 3050 4546 50  0000 L CNN
+F 1 "MountingHole" H 3050 4455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2950 4500 50  0001 C CNN
+F 3 "~" H 2950 4500 50  0001 C CNN
+	1    2950 4500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
