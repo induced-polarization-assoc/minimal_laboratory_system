@@ -1,0 +1,3 @@
+
+Power Amp Board Reference Design:
+https://www.dmcinfo.com/Portals/0/function-generator-amplifier-original-schematic-marked-up.png
