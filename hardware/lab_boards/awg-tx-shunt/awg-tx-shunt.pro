@@ -1,4 +1,4 @@
-update=9/17/2020 1:52:55 PM
+update=9/17/2020 5:48:29 PM
 version=1
 last_client=kicad
 [general]
@@ -248,14 +248,14 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=shunt
-Clearance=0.6
-TrackWidth=0.6
-ViaDiameter=1.2
-ViaDrill=0.8
+Clearance=0.3
+TrackWidth=0.3
+ViaDiameter=0.8
+ViaDrill=0.4
 uViaDiameter=0.3
 uViaDrill=0.1
-dPairWidth=0.6
-dPairGap=0.4
+dPairWidth=0.3
+dPairGap=0.3
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=sigpwr
