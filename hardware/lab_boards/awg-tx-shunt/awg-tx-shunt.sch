@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Title "Function Generator to Transmitter Power Amplifier Routing Board"
+Date "2020-09-22"
+Rev "2"
+Comp "Induced Polarization Associates, LLC"
+Comment1 "and diagnostic purposes."
+Comment2 "at two other points along the signal path for testing "
+Comment3 "amplifier board. Also has returns for shunt measurements"
+Comment4 "Isolated routing of function generator signals to power "
 $EndDescr
 $Comp
 L Conn-BNC-Amphenol-Isolated-1-1337543-0:1-1337543-0 J1
