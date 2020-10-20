@@ -1,0 +1,137 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Microchip_ATtiny:ATtiny85-20PU U?
+U 1 1 5F98B5E3
+P 5600 3150
+F 0 "U?" H 5071 3196 50  0000 R CNN
+F 1 "ATtiny85-20PU" H 5071 3105 50  0000 R CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 5600 3150 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf" H 5600 3150 50  0001 C CNN
+	1    5600 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal_Small Y?
+U 1 1 5F98C2EB
+P 7150 3200
+F 0 "Y?" V 7104 3288 50  0000 L CNN
+F 1 "Crystal_Small" V 7195 3288 50  0000 L CNN
+F 2 "" H 7150 3200 50  0001 C CNN
+F 3 "~" H 7150 3200 50  0001 C CNN
+	1    7150 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F98E438
+P 5900 2150
+F 0 "C?" V 5671 2150 50  0000 C CNN
+F 1 "C_Small" V 5762 2150 50  0000 C CNN
+F 2 "" H 5900 2150 50  0001 C CNN
+F 3 "~" H 5900 2150 50  0001 C CNN
+	1    5900 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J?
+U 1 1 5F98F62C
+P 7500 2100
+F 0 "J?" H 7550 2417 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 7550 2326 50  0000 C CNN
+F 2 "" H 7500 2100 50  0001 C CNN
+F 3 "~" H 7500 2100 50  0001 C CNN
+	1    7500 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5F98FF32
+P 5600 4200
+F 0 "#PWR?" H 5600 3950 50  0001 C CNN
+F 1 "GNDD" H 5604 4045 50  0000 C CNN
+F 2 "" H 5600 4200 50  0001 C CNN
+F 3 "" H 5600 4200 50  0001 C CNN
+	1    5600 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 5F9908F0
+P 5600 1900
+F 0 "#PWR?" H 5600 1750 50  0001 C CNN
+F 1 "VDD" H 5615 2073 50  0000 C CNN
+F 2 "" H 5600 1900 50  0001 C CNN
+F 3 "" H 5600 1900 50  0001 C CNN
+	1    5600 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F991A6E
+P 7200 4400
+F 0 "SW?" H 7200 4685 50  0000 C CNN
+F 1 "SW_Push" H 7200 4594 50  0000 C CNN
+F 2 "" H 7200 4600 50  0001 C CNN
+F 3 "~" H 7200 4600 50  0001 C CNN
+	1    7200 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F9923DD
+P 7200 3950
+F 0 "SW?" H 7200 4235 50  0000 C CNN
+F 1 "SW_Push" H 7200 4144 50  0000 C CNN
+F 2 "" H 7200 4150 50  0001 C CNN
+F 3 "~" H 7200 4150 50  0001 C CNN
+	1    7200 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F993311
+P 4300 2450
+F 0 "D?" H 4293 2195 50  0000 C CNN
+F 1 "LED" H 4293 2286 50  0000 C CNN
+F 2 "" H 4300 2450 50  0001 C CNN
+F 3 "~" H 4300 2450 50  0001 C CNN
+	1    4300 2450
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F993E81
+P 4250 1950
+F 0 "D?" H 4243 1695 50  0000 C CNN
+F 1 "LED" H 4243 1786 50  0000 C CNN
+F 2 "" H 4250 1950 50  0001 C CNN
+F 3 "~" H 4250 1950 50  0001 C CNN
+	1    4250 1950
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F994223
+P 4250 1550
+F 0 "D?" H 4243 1295 50  0000 C CNN
+F 1 "LED" H 4243 1386 50  0000 C CNN
+F 2 "" H 4250 1550 50  0001 C CNN
+F 3 "~" H 4250 1550 50  0001 C CNN
+	1    4250 1550
+	1    0    0    1   
+$EndComp
+$EndSCHEMATC

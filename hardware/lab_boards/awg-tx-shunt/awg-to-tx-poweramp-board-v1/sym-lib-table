@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name OPA547F)(type Legacy)(uri ${KIPRJMOD}/specific_library/ul_OPA547F500/KiCAD/2020-10-20_19-20-31/2020-10-20_19-20-31.lib)(options "")(descr ""))
+  (lib (name OPA810)(type Legacy)(uri ${KIPRJMOD}/specific_library/ul_OPA810IDBVT/KiCAD/2020-10-20_19-19-43/2020-10-20_19-19-43.lib)(options "")(descr ""))
+)
