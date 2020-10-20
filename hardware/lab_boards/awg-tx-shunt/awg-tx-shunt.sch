@@ -566,6 +566,7 @@ F 1 "MountingHole" H 9950 955 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9850 1000 50  0001 C CNN
 F 3 "~" H 9850 1000 50  0001 C CNN
 	1    9850 1000
+
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -605,4 +606,5 @@ Wire Wire Line
 	8800 1800 8150 1800
 Wire Wire Line
 	8150 1800 8150 1850
+
 $EndSCHEMATC
