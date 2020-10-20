@@ -462,4 +462,6 @@ Connection ~ 3350 1850
 Wire Wire Line
 	3350 3850 3350 3650
 Connection ~ 3350 3650
+Text GLabel 1700 5350 0    50   BiDi ~ 0
+ILIM
 $EndSCHEMATC

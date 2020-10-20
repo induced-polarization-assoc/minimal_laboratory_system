@@ -14,28 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_Microchip_ATtiny:ATtiny85-20PU U?
-U 1 1 5F98B5E3
-P 5600 3150
-F 0 "U?" H 5071 3196 50  0000 R CNN
-F 1 "ATtiny85-20PU" H 5071 3105 50  0000 R CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 5600 3150 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf" H 5600 3150 50  0001 C CNN
-	1    5600 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Crystal_Small Y?
-U 1 1 5F98C2EB
-P 7150 3200
-F 0 "Y?" V 7104 3288 50  0000 L CNN
-F 1 "Crystal_Small" V 7195 3288 50  0000 L CNN
-F 2 "" H 7150 3200 50  0001 C CNN
-F 3 "~" H 7150 3200 50  0001 C CNN
-	1    7150 3200
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:C_Small C?
 U 1 1 5F98E438
 P 5900 2150
@@ -45,17 +23,6 @@ F 2 "" H 5900 2150 50  0001 C CNN
 F 3 "~" H 5900 2150 50  0001 C CNN
 	1    5900 2150
 	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x03_Odd_Even J?
-U 1 1 5F98F62C
-P 7500 2100
-F 0 "J?" H 7550 2417 50  0000 C CNN
-F 1 "Conn_02x03_Odd_Even" H 7550 2326 50  0000 C CNN
-F 2 "" H 7500 2100 50  0001 C CNN
-F 3 "~" H 7500 2100 50  0001 C CNN
-	1    7500 2100
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDD #PWR?
@@ -134,4 +101,6 @@ F 3 "~" H 4250 1550 50  0001 C CNN
 	1    4250 1550
 	1    0    0    1   
 $EndComp
+Text GLabel 3000 4250 2    50   BiDi ~ 0
+SHDN-DISABLE
 $EndSCHEMATC
